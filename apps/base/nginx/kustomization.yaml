@@ -3,4 +3,5 @@ kind: Kustomization
 namespace: nginx
 resources:
   - bitnami-repo.yaml
-  - namespace.yaml  
+  - namespace.yaml 
+  - release.yaml
