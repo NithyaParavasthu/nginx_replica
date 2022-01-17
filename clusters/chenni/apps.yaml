@@ -5,11 +5,9 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5s
-  path: ./apps/base/nginx
+  path: ./apps/chenni
   prune: true
   timeout: 3m0s
   sourceRef:
     kind: GitRepository
     name: flux-system 
-resources:
-  - release.yaml
