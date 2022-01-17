@@ -12,6 +12,7 @@ spec:
         name: bitnami
   interval: 1m0s
   releaseName: nginx
+  replicaCount: 2
   values:
     extraEnvVars:
       - name: FOO
