@@ -16,3 +16,4 @@ spec:
     extraEnvVars:
       - name: FOO
         value: BAR 
+    replicaCount: 4
